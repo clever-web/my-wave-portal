@@ -58,9 +58,6 @@ contract WavePortal {
 
         console.log("Random # generated: %d", seed);
 
-        /*
-         * Give a 50% chance that the user wins the prize.
-         */
         if (seed <= 50) {
             console.log("%s won!", msg.sender);
 
